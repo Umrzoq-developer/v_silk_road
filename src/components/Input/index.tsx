@@ -2,7 +2,7 @@ import React from "react";
 import { Input } from "antd";
 
 const InputComponent = ({
-  type,
+  type = "text",
   value,
   placeholder,
   handleChange,
