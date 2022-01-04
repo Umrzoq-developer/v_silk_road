@@ -1,0 +1,16 @@
+.card__container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-row-gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}

@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  width: 90%;
+  outline: none;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  border-radius: 8px;
+}
+
+.container:hover {
+  border: 1px solid rgba(0, 0, 0, 0.56);
+}

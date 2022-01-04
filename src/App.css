@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.form_handle {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 50%;
+}
