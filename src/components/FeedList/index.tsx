@@ -14,7 +14,7 @@ const FeedList = () => {
   if (loading) return <div>loading.....</div>;
   return (
     <div className="feed_wrap">
-      {data.dogs?.map((item: IFeed) => {
+      {data?.dogs?.map((item: IFeed) => {
         return <div key={item.id}>{item.breed}</div>;
       })}
     </div>

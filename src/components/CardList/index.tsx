@@ -10,7 +10,7 @@ const CardList = () => {
   if (loading) return <p>Loading...</p>;
   return (
     <div className="wrapper">
-      <h3 className="card_title">Graphql Cards</h3>
+      <h3 className="card_title">Graphql Card1s</h3>
       <div className="card__container">
         {data?.rates?.map((item: IRate) => {
           return <Card key={item.currency} {...item} />;
